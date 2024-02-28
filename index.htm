@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Pomodoro</title>
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav>
+                <div id="logo"><i class="fa-solid fa-circle-check"></i>Pomofocus</div>
+                <div id="right_nav">
+                    <button><i class="fa-solid fa-chart-column"></i>Report</button>
+                    <button><i class="fa-solid fa-gear"></i>Setting</button>
+                    <button><i class="fa-solid fa-circle-user"></i>Login</button>
+                </div>
+            </nav>
+
+
+            <div id="timer_main">
+                <div id="timer_nav">
+                    <button>Pomodoro</button>
+                    <button id="short">Short Break</button>
+                    <button>Long Break</button>
+                </div>
+                <div id="timer_num">
+                    <div id="timer_minute">25</div>
+                    <span>:</span>
+                    <div id="timer_second">00</div>
+                </div>
+                <button id="start">START</button>
+                <button id="stop">STOP</button>
+                <button id="continue">Continue</button>
+            </div>
+
+
+            <div id="info">
+                <p>#1</p>
+            <h2>Time To Focus!</h2>
+            </div>
+
+            <div id="tasks">
+                <h2>Tasks</h2>
+                <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                
+            </div>
+
+           
+                <button id="add_task"><i class="fa-solid fa-circle-plus"></i>Add task</button>
+                
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
